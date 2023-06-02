@@ -1,0 +1,82 @@
+import { HeroPattern } from '@/components/HeroPattern'
+
+import { GPA } from '@/components/KS1/GPA.jsx'
+import { Genarator11 } from '@/components/KS1/Generator1.jsx'
+import { Cleaning1 } from '@/components/KS1/Cleaning.jsx'
+import { AVO } from '@/components/KS1/AVO.jsx'
+import { Measuring } from '@/components/KS1/Measuring.jsx'
+import { KSB } from '@/components/KS1/KSB.jsx'
+import { BPTG } from '@/components/KS1/BPTG.jsx'
+import { ESD } from '@/components/KS1/ESD.jsx'
+import { Firefighting } from '@/components/KS1/Firefighting.jsx'
+import { Sewerage } from '@/components/KS1/Sewerage.jsx'
+import { Step1 } from '@/components/KS1/GPAsection/Step1.jsx'
+import { Step2 } from '@/components/KS1/GPAsection/Step2.jsx'
+import { Step3 } from '@/components/KS1/GPAsection/Step3.jsx'
+import { Step4 } from '@/components/KS1/GPAsection/Step4.jsx'
+// import { WKC1Image } from '@/components/KS1/wkc1Image.jsx'
+import { YangiWKC1Image } from '@/components/KS1/YangiWKC1Image.jsx'
+
+export const description = 'Be professional with Asia Trans Gas Academy'
+
+export const sections = [
+  { title: 'ГПА', id: 'gpa' },
+  {
+    title: 'Пульсирующая воздушно-реактивная система',
+    id: 'step1',
+    className: 'ml-4',
+  },
+  { title: 'Силовая Турбина', id: 'step2', className: 'ml-4' },
+  {
+    title: 'Нагнетатель центробежный компрессора',
+    id: 'step3',
+    className: 'ml-4',
+  },
+  {
+    title: 'Вспомоготельная оборудования',
+    id: 'step4',
+    className: 'ml-4',
+  },
+  { title: 'Газогенератор', id: 'generator1' },
+  { title: 'Зона очистки', id: 'cleaning1' },
+  { title: 'АВО', id: 'avo1' },
+  { title: 'Замерная зона ', id: 'measuring1' },
+  { title: 'ESD', id: 'esd' },
+  { title: 'ПОЖАРОТУШЕНИЕ КОМПРЕССОРНЫХ СТАНЦИЙ ', id: 'firefighting' },
+  { title: 'БПТГ', id: 'bptg' },
+  { title: 'КСВ', id: 'ksb' },
+  { title: 'Канализация', id: 'sewerage' },
+]
+
+<HeroPattern />
+
+# WKC-1
+
+Компрессорная станция KC1 считается головной компрессорной станцией нитки А, Б газопровода Туркменистан-Узбекистан-Казахстан-Китай(ТУКК). Она находится в 10,6 км от границы Узбекистана с Туркменистаном. Природный газ поступает на KC1 из двух источников по двум параллельным трубопроводам диаметром 1067 мм,. расстояние между которыми 16м:
+
+По линии А от Гос.концерна Туркменгаз (Малай).
+По линии Б от КННКИТ (Амударья).
+
+Проектная пропускная способность компрессорной станции KC1 составляет 30 млрд.м3/год.
+Компрессорная станция KC1 состоит из основного и вспомогательного оборудования.
+Основное технологическое оборудование компрессорной станции - газоперекачивающие агрегаты, обеспечивающие необходимый режим транспортировки газа по магистральному газопроводу.{{ className: 'lead' }}
+
+### Техническая карта станции WKC1:
+
+{/* <WKC1Image/> */}
+
+<YangiWKC1Image />
+<GPA />
+<Step1 />
+<Step2 />
+<Step3 />
+<Step4 />
+<Genarator11 />
+<Cleaning1 />
+<AVO />
+<Measuring />
+<KSB />
+<BPTG />
+<ESD />
+<Firefighting />
+<Sewerage />
